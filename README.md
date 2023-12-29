@@ -35,7 +35,7 @@ A new browser session pops up, use the login credentials of your account:
 
 After that, switch back to VS Code, you should see logs similar in the picture shown below:
 
-<img src="pictures/00_vs_code_az_login.png" width="400">
+<img src="pictures/00_vs_code_az_login.png" width="600">
 
 <img src="pictures/02_vs_code_az_account_show.png" width="400">
 

@@ -19,7 +19,17 @@ I'd like to refer to following to links, which I've used for for that example:
 
 # Deployment of the Windows virtual machine
 
-## Initialization
+I recommend to conduct all commands in VS Code using a new Terminal.
+
+## Login in to Azure
+
+Run following command to start the login to your *Azure* subscription:
+
+```
+az login
+```
+
+![alt text](pictures/00_vs_code_az_login.png)
 
 Use the Init command for establishing a connection to the backend, use:
 

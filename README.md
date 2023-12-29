@@ -31,15 +31,13 @@ az login
 
 A new browser session pops up, use the login credentials of your account:
 
-![alt text](pictures/01_browser_login.png)
-<img src="pictures/01_browser_login.png" width="200">
+<img src="pictures/01_browser_login.png" width="400">
 
 After that, switch back to VS Code, you should see logs similar in the picture shown below:
 
-![alt text](pictures/00_vs_code_az_login.png)
+<img src="pictures/00_vs_code_az_login.png" width="400">
 
-![alt text](pictures/02_vs_code_az_account_show.png)
-
+<img src="pictures/02_vs_code_az_account_show.png" width="400">
 
 Use the Init command for establishing a connection to the backend, use:
 

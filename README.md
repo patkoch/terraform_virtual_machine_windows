@@ -32,6 +32,7 @@ az login
 A new browser session pops up, use the login credentials of your account:
 
 ![alt text](pictures/01_browser_login.png)
+<img src="Assets/01_browser_login.png" width="200">
 
 After that, switch back to VS Code, you should see logs similar in the picture shown below:
 

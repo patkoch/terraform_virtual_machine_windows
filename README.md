@@ -17,7 +17,7 @@ I'd like to refer to following to links, which I've used for for that example:
 
 [Hashicorp - azurerm - public ip](https://registry.terraform.io/providers/hashicorp/azurerm/2.55.0/docs/resources/public_ip)
 
-# Deployment of the Windows virtual machine
+# Deploy and destroy the Windows virtual machine with Terraform
 
 I recommend to conduct all commands in VS Code using a new Terminal.
 
@@ -46,7 +46,7 @@ This shows you the current subscription:
 
 <img src="pictures/02_vs_code_az_account_show.png" width="400">
 
-## Deployment of the virtual machine using Terraform
+## Deploy the virtual machine 
 
 The first *Terraform* command is the "init" command:
 
@@ -94,4 +94,14 @@ The deployment was successful if following log message appears:
 
 Prove the deployment of the virtual machine in the *Azure* portal:
 
-<img src="pictures/09_azure_portal_vm.png" width="600">
+<img src="pictures/09_azure_portal_vm.png" width="800">
+
+## Destroy the virtual machine
+
+The virtual machine can be destroyed using the following command:
+
+```
+terraform destroy
+```
+
+<img src="pictures/10_vs_code_terraform_destroy.png" width="800">

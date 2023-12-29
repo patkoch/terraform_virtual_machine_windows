@@ -87,3 +87,11 @@ terraform apply "tfplan"
 ```
 
 <img src="pictures/07_vs_code_terraform_apply.png" width="400">
+
+The deployment was successful if following log message appears:
+
+<img src="pictures/08_vs_code_apply_complete.png" width="400">
+
+Prove the deployment of the virtual machine in the *Azure* portal:
+
+<img src="pictures/09_azure_portal_vm.png" width="600">

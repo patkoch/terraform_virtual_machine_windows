@@ -2,7 +2,7 @@
 
 This is the manual for the provisioning of a Windows virtual machine on Azure using Terraform.
 
-# 1. Prerequisites
+# Prerequisites
 
 Despite of having an *Azure* subscription, install following:
 
@@ -23,13 +23,22 @@ I recommend to conduct all commands in VS Code using a new Terminal.
 
 ## Login in to Azure
 
-Run following command to start the login to your *Azure* subscription:
+Run following command to start the login to *Azure*:
 
 ```
 az login
 ```
 
+A new browser session pops up, use the login credentials of your account:
+
+![alt text](pictures/01_browser_login.png)
+
+After that, switch back to VS Code, you should see logs similar in the picture shown below:
+
 ![alt text](pictures/00_vs_code_az_login.png)
+
+![alt text](pictures/02_vs_code_az_account_show.png)
+
 
 Use the Init command for establishing a connection to the backend, use:
 

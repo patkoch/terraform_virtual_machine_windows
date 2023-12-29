@@ -48,7 +48,7 @@ This shows you the current subscription:
 
 ## Deployment of the virtual machine using Terraform
 
-The first *Terraform* command is the "init" command, run the following command:
+The first *Terraform* command is the "init" command:
 
 ```
 terraform init
@@ -56,6 +56,20 @@ terraform init
 The logs in the picture below show a successful execution of the command:
 
 <img src="pictures/03_vs_code_terraform_init.png" width="400">
+
+As next, run the "format" command, to ensure that all files of your configuration stick to specific language style conventions:
+
+```
+terraform fmt
+```
+
+After that, ensure that your *Terraform* coniguration is valid by executing:
+
+```
+terraform validate
+```
+
+<img src="pictures/05_vs_code_terraform_validate.png" width="400">
 
 
 

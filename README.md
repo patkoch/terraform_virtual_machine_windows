@@ -71,21 +71,11 @@ terraform validate
 
 <img src="pictures/05_vs_code_terraform_validate.png" width="400">
 
-
-
-
-## Validation
-
-Use the Validation command for verifying the file
+Create now a *Terraform* plan file, by running:
 
 ```
-terraform validation
+terraform plan -out tfplan
 ```
+This creates a file named "tfplan" in your directory:
 
-## Apply
-
-Use the Apply command for conducting the provisioning
-
-```
-terraform apply
-```
+<img src="pictures/06_vs_code_terraform_plan.png" width="400">

@@ -78,4 +78,12 @@ terraform plan -out tfplan
 ```
 This creates a file named "tfplan" in your directory:
 
-<img src="pictures/06_vs_code_terraform_plan.png" width="400">
+<img src="pictures/06_vs_code_terraform_plan.png" width="500">
+
+Finally, the command can be executed for deploying the virtual machine on *Azure* - it uses the *Terraform* plan named "tfplan" as an argument:
+
+```
+terraform apply "tfplan"
+```
+
+<img src="pictures/07_vs_code_terraform_apply.png" width="400">

@@ -104,4 +104,10 @@ The virtual machine can be destroyed using the following command:
 terraform destroy
 ```
 
-<img src="pictures/10_vs_code_terraform_destroy.png" width="800">
+<img src="pictures/10_vs_code_terraform_destroy.png" width="400">
+
+# References
+
+https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build
+
+https://developer.hashicorp.com/terraform/cli/commands

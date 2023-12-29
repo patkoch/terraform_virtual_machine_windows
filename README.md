@@ -35,15 +35,30 @@ A new browser session pops up, use the login credentials of your account:
 
 After that, switch back to VS Code, you should see logs similar in the picture shown below:
 
-<img src="pictures/00_vs_code_az_login.png" width="600">
+<img src="pictures/00_vs_code_az_login.png" width="800">
+
+You can prove whether you are using the right subscription using the following command:
+
+```
+az account show
+```
+This shows you the current subscription:
 
 <img src="pictures/02_vs_code_az_account_show.png" width="400">
 
-Use the Init command for establishing a connection to the backend, use:
+## Deployment of the virtual machine using Terraform
+
+The first *Terraform* command is the "init" command, run the following command:
 
 ```
 terraform init
 ```
+The logs in the picture below show a successful execution of the command:
+
+<img src="pictures/03_vs_code_terraform_init.png" width="400">
+
+
+
 
 ## Validation
 
